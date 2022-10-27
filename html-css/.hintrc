@@ -5,7 +5,9 @@
       "pattern": ["**", "!.git/**", "!node_modules/**"]
     }
   },
-  "extends": ["development"],
+  "extends": [
+  "development"
+  ],
   "formatters": ["stylish"],
   "hints": [
     "button-type",
